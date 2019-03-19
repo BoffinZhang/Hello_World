@@ -3,6 +3,7 @@ xx = 0.5;
 eps = 1e-4;
 MAXN = 50;
 count = 1;
+fprintf("n     x           f(x)\n")
 while(abs(xx-x)>eps&&count<=MAXN)
     x = xx;
     xx = g(x);

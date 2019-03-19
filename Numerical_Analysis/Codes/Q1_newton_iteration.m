@@ -3,6 +3,7 @@ x1 = 0.5;
 x0 = 1;
 eps = 1e-4;
 count = 1;
+fprintf("n     x           f(x)\n")
 while(abs(x1-x0)>eps)
    x0 = x1;
    x1 = g(x0);
